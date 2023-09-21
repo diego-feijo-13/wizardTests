@@ -1,0 +1,15 @@
+﻿@model TestApplication.ViewModel.Step3ViewModel
+
+<form method="post" asp-controller="LocalStorageWizardStep3" asp-action="Next">
+    <h1>Step 3</h1>
+    
+    <h3>What is the best TV Show?</h3>    
+    <input id="tvShowTxt" name="tvShow" type="text" value="@Model.TvShow" />
+    <br />
+    <br />
+    <input type="button" onclick="location.href='@Url.Action("", "LocalStorageWizardStep2")'" value="Back" />
+    <input type="submit" value="Next" />
+</form>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/localStorageWizard/step3.js"></script>

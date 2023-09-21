@@ -1,0 +1,14 @@
+﻿@model TestApplication.ViewModel.Step3ViewModel
+
+<form id="stepForm" method="post">
+    <h1>Step 3</h1>
+    
+    <h3>What is the best TV Show?</h3>    
+    <input id="tvShowTxt" name="tvShow" type="text" value="@Model.TvShow" />
+    <br />
+    <br />
+    <input id="backButton" type="button" value="Back" />
+    <input id="nextButton" type="button" value="Next" />
+</form>
+
+<script src="~/js/hiddenInputWizard/step3.js"></script>

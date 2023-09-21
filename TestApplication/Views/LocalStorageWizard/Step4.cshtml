@@ -1,0 +1,31 @@
+﻿@model TestApplication.ViewModel.WizardViewModel
+
+<form method="post" asp-controller="LocalStorageWizardStep4" asp-action="Validate">
+    <h1>Step 4</h1>
+    
+    <h3>Your answers</h3>    
+    <h4>Question, what type of bear is best?</h4>
+    <p id="bear"></p>
+    <span asp-validation-for="@Model.Bear"></span>    
+    <input type="hidden" asp-for="@Model.Bear" id="bearHiddenInput" value="" />
+    <br />
+
+    <h4>What do bears eat?</h4>
+    <p id="food"></p>
+    <span asp-validation-for="@Model.Food" class="text-danger"></span>
+    <input type="hidden" asp-for="@Model.Food" id="foodHiddenInput" value="" />
+    <br />
+
+    <h4>What is the best TV Show?</h4>
+    <p id="tvShow"></p>
+    <span asp-validation-for="@Model.TvShow" class="text-danger"></span>
+    <input type="hidden" asp-for="@Model.TvShow" id="tvShowHiddenInput" value="" />
+    
+    <br />
+    <br />
+    <input type="button" onclick="location.href='@Url.Action("", "LocalStorageWizardStep3")'" value="Back" />
+    <input type="submit" value="Validate" />
+</form>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/localStorageWizard/step4.js"></script>

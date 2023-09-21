@@ -1,0 +1,13 @@
+﻿@model TestApplication.ViewModel.Step1ViewModel
+
+<form id="stepForm" method="post">
+    <h1>Step 1</h1>
+    
+    <h3>Question, what type of bear is best?</h3>    
+    <input id="bearTxt" name="bear" type="text" value="@Model.Bear" />
+    <br />
+    <br />
+    <input id="nextButton" type="button" value="Next" />
+</form>
+
+<script src="~/js/hiddenInputWizard/step1.js"></script>

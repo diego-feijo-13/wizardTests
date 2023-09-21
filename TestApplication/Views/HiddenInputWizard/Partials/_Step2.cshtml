@@ -1,0 +1,14 @@
+﻿@model TestApplication.ViewModel.Step2ViewModel
+
+<form id="stepForm" method="post">
+    <h1>Step 2</h1>
+    
+    <h3>What do bears eat?</h3>    
+    <input id="foodTxt" name="food" type="text" value="@Model.Food" />
+    <br />
+    <br />
+    <input id="backButton" type="button" value="Back" />
+    <input id="nextButton" type="button" value="Next" />
+</form>
+
+<script src="~/js/hiddenInputWizard/step2.js"></script>

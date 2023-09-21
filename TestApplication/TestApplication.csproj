@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\hiddenInputWizard\step1.js" />
+    <Content Remove="wwwroot\js\hiddenInputWizard\step2.js" />
+    <Content Remove="wwwroot\js\hiddenInputWizard\step3.js" />
+    <Content Remove="wwwroot\js\hiddenInputWizard\step4.js" />
+    <Content Remove="wwwroot\js\localStorageWizard\finalStep.js" />
+    <Content Remove="wwwroot\js\localStorageWizard\step2.js" />
+    <Content Remove="wwwroot\js\localStorageWizard\step3.js" />
+    <Content Remove="wwwroot\js\localStorageWizard\step4.js" />
+    <Content Remove="wwwroot\js\step1.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\js\hiddenInputWizard\step1.js" />
+    <EmbeddedResource Include="wwwroot\js\hiddenInputWizard\step2.js" />
+    <EmbeddedResource Include="wwwroot\js\hiddenInputWizard\step3.js" />
+    <EmbeddedResource Include="wwwroot\js\hiddenInputWizard\step4.js" />
+    <EmbeddedResource Include="wwwroot\js\localStorageWizard\finalStep.js" />
+    <EmbeddedResource Include="wwwroot\js\localStorageWizard\step4.js" />
+    <EmbeddedResource Include="wwwroot\js\localStorageWizard\step3.js" />
+    <EmbeddedResource Include="wwwroot\js\localStorageWizard\step2.js" />
+    <EmbeddedResource Include="wwwroot\js\localStorageWizard\step1.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Razor" Version="3.2.9" />
+  </ItemGroup>
+
+</Project>

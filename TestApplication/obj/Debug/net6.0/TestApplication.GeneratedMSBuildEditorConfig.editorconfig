@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TestApplication
+build_property.RootNamespace = TestApplication
+build_property.ProjectDir = C:\Git\wizardTests\TestApplication\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Git\wizardTests\TestApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Git/wizardTests/TestApplication/Views/HiddenInputWizard/Partials/_FinalStep.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlkZGVuSW5wdXRXaXphcmRcUGFydGlhbHNcX0ZpbmFsU3RlcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/HiddenInputWizard/Partials/_Step1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlkZGVuSW5wdXRXaXphcmRcUGFydGlhbHNcX1N0ZXAxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/HiddenInputWizard/Partials/_Step2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlkZGVuSW5wdXRXaXphcmRcUGFydGlhbHNcX1N0ZXAyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/HiddenInputWizard/Partials/_Step3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlkZGVuSW5wdXRXaXphcmRcUGFydGlhbHNcX1N0ZXAzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/HiddenInputWizard/Partials/_Step4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlkZGVuSW5wdXRXaXphcmRcUGFydGlhbHNcX1N0ZXA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/HiddenInputWizard/Wizard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlkZGVuSW5wdXRXaXphcmRcV2l6YXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/LocalStorageWizard/FinalStep.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxTdG9yYWdlV2l6YXJkXEZpbmFsU3RlcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/LocalStorageWizard/Step1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxTdG9yYWdlV2l6YXJkXFN0ZXAxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/LocalStorageWizard/Step2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxTdG9yYWdlV2l6YXJkXFN0ZXAyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/LocalStorageWizard/Step3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxTdG9yYWdlV2l6YXJkXFN0ZXAzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/LocalStorageWizard/Step4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxTdG9yYWdlV2l6YXJkXFN0ZXA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/wizardTests/TestApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
